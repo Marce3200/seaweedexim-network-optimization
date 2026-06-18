@@ -5,4 +5,6 @@
 gurobipy>=11.0      # solver de optimizacion (requiere licencia; la academica es gratuita)
 pandas>=2.0         # lectura del Excel y manejo de datos
 openpyxl>=3.1       # motor para leer/escribir archivos .xlsx (lo usa pandas)
+matplotlib>=3.7    # generacion de graficos PNG
+python-docx>=1.1   # generacion del documento Word con respuestas
  
