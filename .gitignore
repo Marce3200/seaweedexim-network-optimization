@@ -1,0 +1,30 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+ 
+# --- Entornos virtuales ---
+venv/
+.venv/
+env/
+.env
+ 
+# --- Gurobi (NUNCA subir la licencia) ---
+gurobi.lic
+*.lic
+*.log
+ 
+# --- Resultados generados (se regeneran al correr) ---
+resultados/*.xlsx
+resultados/*.csv
+# pero conservamos la carpeta
+!resultados/.gitkeep
+ 
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+ 
+# --- Editor ---
+.vscode/
+.idea/
